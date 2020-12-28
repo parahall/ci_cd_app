@@ -16,3 +16,5 @@ jobs:
 
       - name: "Builds debug build"
         run: ./gradlew assembleDebug
+      - name: Unit tests
+        run: ./gradlew testDebugUnitTest
